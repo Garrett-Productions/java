@@ -2,7 +2,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 class CafeUtil {
-
+    public int addSum(){
+        int sum = 0;
+        for (int i = 0; i <= 10; i++){
+            sum = sum + i;
+        }
+        return sum;
+    }
 // #1
     public int getStreakGoal() {
         int sum = 0;
